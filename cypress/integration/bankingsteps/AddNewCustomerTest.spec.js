@@ -27,3 +27,7 @@ Then('I typed dataUser', () => {
 And('I click on submit button', () => {
     pageActions.submitButton()
 })
+
+And('I click on the home button', () => {
+    pageActions.clickHomeButton()
+})

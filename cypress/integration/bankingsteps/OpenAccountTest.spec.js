@@ -1,8 +1,8 @@
 import { Given, When, And, Then } from 'cypress-cucumber-preprocessor/steps'
 import { pageActions } from '../pageobjects/pageActions'
 
-Given('I navigate to the homepage', () => {
-    pageActions.homePage()
+Given('I click on the home button', () => {
+    pageActions.clickHomeButton()
 })
 
 And('Validate the title of the page', () => {
